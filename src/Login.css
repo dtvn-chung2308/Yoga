@@ -1,0 +1,87 @@
+#login {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+#login i {
+    font-size: 40px;
+    -webkit-text-stroke: 5px white;
+    float: right;
+    padding-right: 50px;
+    color: black;
+}
+
+#login a {
+    color: rgb(110, 43, 43);
+    font-weight: 500;
+}
+
+#login a:hover {
+    text-decoration: none;
+    color: rgb(110, 43, 43);
+}
+
+#login h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(99, 61, 61);
+    font-size: 50px;
+}
+
+#login p {
+    padding-top: 12px;
+}
+
+#login form {
+    margin-top: -50px;
+}
+
+#login form label {
+    position: absolute;
+    z-index: 9999;
+    margin-left: -145px;
+    color: rgb(99, 61, 61);
+}
+
+#login form .input {
+    width: 290px;
+    border-top: rgba(255, 255, 255, 0);
+    border-left: rgba(255, 255, 255, 0);
+    border-right: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(139, 77, 77);
+    outline: none;
+}
+
+#login form button {
+    width: 290px;
+    height: 40px;
+    background-color: rgb(148, 73, 73);
+    border: none;
+    margin-top: 22px;
+}
+
+#login form button:hover {
+    background-color: rgb(184, 99, 99);
+}
+
+#login form .box {
+    margin-top: 40px;
+}
+
+#login form .read-more {
+    text-decoration: underline;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,292 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #ebe0d5;
+}
+
+.menu a img {
+    width: 400px;
+}
+
+.menu ul {
+    font-size: 16px;
+}
+
+.menu a {
+    color: rgb(102, 71, 102);
+    padding-left: 40px;
+}
+
+.menu a:hover {
+    color: rgb(165, 155, 165);
+}
+
+.menu li i {
+    padding-left: 17px;
+}
+
+
+/* Content */
+
+.content {
+    width: 100%;
+}
+
+#about-us {
+    text-align: center;
+    overflow: hidden;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+#about-us h3,
+p {
+    padding: 50px 110px 50px 110px;
+}
+
+#about-us h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(102, 71, 102);
+}
+
+#about-us p {
+    font-size: 14.5px;
+    word-spacing: 3.5px;
+    line-height: 24px;
+}
+
+#about-us .about-us-line {
+    border: 1px solid black;
+    width: 35px;
+    margin-left: 654px;
+}
+
+#about-us .row {
+    width: 100%;
+}
+
+#about-us .row a:hover {
+    opacity: 0.5;
+}
+
+#about-us .row img {
+    width: 674.9px;
+    height: 500px;
+}
+
+#teachers {
+    text-align: center;
+    overflow: hidden;
+}
+
+#teachers h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(102, 71, 102);
+    padding-top: 50px;
+}
+
+#teachers .teachers-line {
+    border: 1px solid black;
+    width: 35px;
+    margin-left: 654px;
+    margin-bottom: 50px;
+}
+
+#teachers .row {
+    padding: 0 50px 0 50px;
+}
+
+#teachers .row .col-sm-4 img {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+#teachers .row .col-sm-4 h5 {
+    padding: 30px 0 0 0;
+    color: rgb(102, 71, 102);
+}
+
+#teachers .row .col-sm-4 .row-line {
+    border: 1px solid black;
+    width: 35px;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+#teachers .row p {
+    font-size: 14.5px;
+    word-spacing: 3.5px;
+    line-height: 24px;
+}
+
+#contact {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#contact .contact-us {
+    width: 100%;
+    height: 350px;
+    background-color: #ebe0d5;
+    text-align: center;
+    color: rgb(102, 71, 102);
+}
+
+#contact .contact-us h3 {
+    padding-top: 56px;
+}
+
+#contact .contact-us h5 {
+    margin-bottom: -15px;
+}
+
+#contact .contact-us .contact-line {
+    border: 1px solid black;
+    width: 35px;
+    margin-bottom: 30px;
+    margin-left: 650px;
+    margin-top: 40px;
+}
+
+#contact .row {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contact .row input {
+    border: 1px solid rgb(199, 139, 181);
+    outline: none;
+    margin-top: 6px;
+    width: 420px;
+}
+
+#contact .row input:hover {
+    border: 2px solid rgb(150, 116, 140);
+}
+
+#contact .row1 input {
+    margin-left: 265px;
+}
+
+#contact .row2 input {
+    height: 96px;
+    padding-bottom: 4.3em;
+}
+
+#contact .row2 button {
+    width: 140px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 280px;
+    padding-top: 2px;
+    border: 1px solid rgb(119, 5, 5);
+    background-color: rgb(119, 5, 5);
+}
+
+#contact .row2 button:hover {
+    color: black;
+    background-color: white;
+}
+
+#contact iframe {
+    padding-left: 260px;
+    width: 1109px;
+    height: 400px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #119991;
+    border: 1px solid #119991;
+    text-align: center;
+    z-index: 100;
+    border-radius: 3px;
+    display: none;
+}
+
+.scroll-to-top img {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: rgb(145, 45, 45);
+    color: white;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+footer .row1 h5 {
+    padding-left: 110px;
+}
+
+footer .row1 p {
+    width: 600px;
+    padding-top: 5px;
+}
+
+footer .row2 {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 35px;
+}
+
+footer .row2 input {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: unset;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+footer .row2 .input1 {
+    width: 50px;
+}
+
+footer .row2 .input2 {
+    width: 170px;
+}
+
+footer .row2 input:hover {
+    border: 2px solid white;
+}
+
+footer .row2 button {
+    width: 100px;
+    background-color: white;
+    color: rgb(145, 45, 45);
+    border: 1px solid rgb(145, 45, 45);
+}
+
+footer .row3 {
+    border-left: 2px solid white;
+    height: 100px;
+    padding-left: 50px;
+}
+
+footer .row3 i {
+    font-size: 30px;
+    padding-right: 40px;
+    padding-top: 10px;
+    color: white;
+}
+
+footer .row3 h5 {
+    padding-left: 35px;
+}
